@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"./oid"
+	"vendor/pq/oid"
 )
 
 var (

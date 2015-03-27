@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"./oid"
+	"vendor/pq/oid"
 )
 
 func encode(parameterStatus *parameterStatus, x interface{}, pgtypOid oid.Oid) []byte {

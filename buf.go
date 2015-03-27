@@ -3,8 +3,7 @@ package pq
 import (
 	"bytes"
 	"encoding/binary"
-
-	"./oid"
+	"vendor/pq/oid"
 )
 
 type readBuf []byte

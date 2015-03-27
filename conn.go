@@ -22,7 +22,7 @@ import (
 	"time"
 	"unicode"
 
-	"./oid"
+	"vendor/pq/oid"
 )
 
 // Common error types
