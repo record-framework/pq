@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lib/pq/oid"
+	"./oid"
 )
 
 func TestScanTimestamp(t *testing.T) {
